@@ -24,3 +24,16 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-custom: #FFF;
+        --background-contrast: #3a3a3a;
+    }
+}
+
+:root {
+    --background-custom: #e1e1e1;
+    --background-contrast: #2a2a2a;
+}

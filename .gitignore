@@ -63,7 +63,15 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+<<<<<<< HEAD
 .jar
 .zip
 .rar
 falacomigo
+=======
+
+falacomigo
+.zip
+.jar
+.rar
+>>>>>>> 4762d2b (feat: inicial commit)
