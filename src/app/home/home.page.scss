@@ -1,0 +1,119 @@
+:host {
+    ion-content {
+        --padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        overflow: auto;
+    }
+
+    .text-contrast {
+        color: var(--background-contrast);
+    }
+
+    .input-box {
+        position: relative;
+    }
+
+    .icon-input {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    ion-textarea {
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 15px;
+    }
+
+    .title-box {
+
+        h1,
+        h5 {
+            margin: 0px;
+            letter-spacing: -1px;
+        }
+
+        h5 {
+            opacity: 50%;
+        }
+    }
+
+    .action-buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        margin-top: 10px;
+    }
+
+    .action-button {
+        --border-radius: 50%;
+        height: 45px;
+        width: 45px;
+    }
+
+    .major {
+        height: 60px;
+        width: 60px;
+    }
+
+    .chips-container {
+        margin-top: 48px;
+    }
+
+    .chips-list{
+        overflow-y: none;
+        overflow-x: scroll;
+    }
+
+    .chips {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .chips-container::-webkit-scrollbar,
+    .chips::-webkit-scrollbar, .chips-list::-webkit-scrollbar {
+        display: none;
+    }
+
+    .favorite-list-container {
+        margin-top: 48px;
+
+        ion-list {
+            max-height: 450px;
+            overflow-y: scroll;
+        }
+
+        ion-list::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .w-full {
+        width: 100%;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .opacity-medium {
+        opacity: 60%;
+    }
+
+    .wrap-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        white-space: pre;
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "fala-comigo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
